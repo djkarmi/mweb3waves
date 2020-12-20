@@ -1,0 +1,16 @@
+h1 {text-shadow: 0 0 0.2em #8F7}
+h2 {text-shadow: 0 0 0.2em #8F7}
+
+
+h1 {text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87}
+h1 {text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F}
+
+h2 {text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87}
+h2 {text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F}
+
+        
+h1 { font-size: 45px; }
+h2 { font-size: 35px; }
+

@@ -77,7 +77,7 @@ class App extends React.Component {
 
     signFuncSzczepan() {
 
-        var y = document.getElementById("iloscszczepan").value;
+        var y = document.getElementById("ilosc2").value;
 
         const txData = {
             type: 16,
@@ -232,7 +232,7 @@ class App extends React.Component {
                             <input name="arg1" id="ilosc" width="1200" height="600" inputmode="decimal" title="Ilość WAVES" autocomplete="off" autocorrect="off" type="number" placeholder="0.00000000" minlength="1" maxlength="79" spellcheck="false" pattern="^[0-9]*[.,]?[0-9]*$" onChange={this.zmiana2}></input>
 
 
-                            <input name="otrzymasz" id="wynik" placeholder="0.00" type="number"  itle="Ilość Szczepanów" onChange={this.zmiana3}></input> <p></p>
+                            <input name="otrzymasz" id="wynik" placeholder="0.00" type="number" itle="Ilość Szczepanów" onChange={this.zmiana3}></input> <p></p>
                             <br></br>
 
 
@@ -243,10 +243,10 @@ class App extends React.Component {
 
 
 
-                            <input name="arg1" id="ilosc2" inputmode="decimal" title="Ilość WAVES" autocomplete="off" autocorrect="off" type="number" placeholder="0.00" minlength="1" maxlength="79" spellcheck="false" pattern="^[0-9]*[.,]?[0-9]*$" onChange={this.zmiana5}></input>
+                            <input name="arg1" id="ilosc2" inputmode="decimal" title="Ilość WAVES" autocomplete="off" autocorrect="off" type="number" placeholder="0.00" minlength="1" maxlength="79" spellcheck="false" pattern="^[0-9]*[.,]?[0-9]*$" onChange={this.zmiana4}></input>
 
 
-                            <input name="otrzymasz" id="wynik2" placeholder="0.00000000" type="number" onChange={this.zmiana4} ></input> <p></p>
+                            <input name="otrzymasz" id="wynik2" placeholder="0.00000000" type="number" onChange={this.zmiana5} ></input> <p></p>
                             <br></br>
 
 

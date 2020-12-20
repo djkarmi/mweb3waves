@@ -4,6 +4,10 @@ const app = express();
 
 app.use(express.static(__dirname + '/dist'))
 
+app.get('/styles/style.css', (req, res) => {
+	res.sendFile('styles/style.css', { root: __dirname });
+});
+
 app.get('/', (req, res) => {
 	res.sendFile('index.html', { root: __dirname });
 });
